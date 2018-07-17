@@ -1,0 +1,141 @@
+[general]
+allow_bold = true
+allow_hyperlinks = false
+audible_bell = false
+scrollback_lines = 10000
+scroll_on_keystroke = true
+scroll_on_output = false
+pointer_autohide = true
+
+[cursor]
+blink_mode = off
+shape = block
+
+[fonts]
+font = Menlo for Powerline 11
+scale = 1.0
+
+[colors]
+# a gruvbox colorscheme with a black transparent background
+
+# hard contrast: background = #1d2021
+; background = #282828
+background = rgba(1, 0, 0, 0.8)
+# soft contrast: background = #32302f
+foreground = #ebdbb2
+; foreground_bold = #ebdbb2
+foreground = #d5c4a1
+foreground_bold = #d5c4a1
+cursor_color = rgb(255, 175, 0)
+
+# dark0 + gray
+color0 = #282828
+color8 = #928374
+
+# neutral_red + bright_red
+color1 = #cc241d
+color9 = #fb4934
+
+# neutral_green + bright_green
+color2 = #98971a
+color10 = #b8bb26
+
+# neutral_yellow + bright_yellow
+color3 = #d79921
+color11 = #fabd2f
+
+# neutral_blue + bright_blue
+color4 = #458588
+color12 = #83a598
+
+# neutral_purple + bright_purple
+color5 = #b16286
+color13 = #d3869b
+
+# neutral_aqua + faded_aqua
+color6 = #689d6a
+color14 = #8ec07c
+
+# light4 + light1
+color7 = #a89984
+color15 = #ebdbb2
+
+## taken from gruvbox color.table to make sure the termcolor is not just an
+## approximate color
+
+# dark0_hard
+color234 = #1d2021
+# dark0
+color235 = #282828
+# dark0_soft
+color236 = #32302f
+# dark1
+color237 = #3c3836
+# dark2
+color239 = #504945
+# dark3
+color241 = #665c54
+# dark4
+color243 = #7c6f64
+# gray_245
+color245 = #928374
+# gray_244
+color244 = #928374
+# light0_hard
+color230 = #f9f5d7
+# light0
+color229 = #fbf1c7
+# light0_soft
+color228 = #f2e5bc
+# light1
+color223 = #ebdbb2
+# light2
+color250 = #d5c4a1
+# light3
+color248 = #bdae93
+# light4
+color246 = #a89984
+# bright_red
+color167 = #fb4934
+# bright_green
+color142 = #b8bb26
+# bright_yellow
+color214 = #fabd2f
+# bright_blue
+color109 = #83a598
+# bright_purple
+color175 = #d3869b
+# bright_aqua
+color108 = #8ec07c
+# bright_orange
+color208 = #fe8019
+# neutral_red
+color124 = #cc241d
+# neutral_green
+color106 = #98971a
+# neutral_yellow
+color172 = #d79921
+# neutral_blue
+color66 = #458588
+# neutral_purple
+color132 = #b16286
+# neutral_aqua
+color72 = #689d6a
+# neutral_orange
+color166 = #d65d0e
+# faded_red
+color88 = #9d0006
+# faded_green
+color100 = #79740e
+# faded_yellow
+color136 = #b57614
+# faded_blue
+color24 = #076678
+# faded_purple
+color96 = #8f3f71
+# faded_aqua
+color66 = #427b58
+# faded_orange
+color130 = #af3a03
+
+# vim: ft=dosini
